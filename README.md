@@ -1,6 +1,6 @@
 # nuxtjs-firebase
 
-So I've made the first Nuxt.js App on Firebase🔥because I am really curious what Nuxt.js can do and What I can do with it.  
+So I've made my first Nuxt.js App on Firebase🔥because I am really curious what Nuxt.js can do and What I can do with it.  
 This is made with [this great tutorial video](https://www.youtube.com/watch?v=ZYUWsjUxxUQ) (Shout out to Firebase team!!).
 
 ## Tools
@@ -12,20 +12,20 @@ This is made with [this great tutorial video](https://www.youtube.com/watch?v=ZY
 
 ## Versions
 ```shell
-$ sw_vers                                                                                                           (git)-[master]
+$ sw_vers
 ProductName:    Mac OS X
 ProductVersion: 10.12.6
 
-$ node -v                                                                                                           (git)-[master]
+$ node -v
 v8.9.1
 
-$ yarn -v                                                                                                           (git)-[master]
+$ yarn -v
 1.5.1
 
-$ vue -V                                                                                                            (git)-[master]
+$ vue -V
 2.9.3
 
-$ firebase -V                                                                                                       (git)-[master]
+$ firebase -V
 3.17.7
 ```
 
@@ -54,6 +54,5 @@ i  hosting: Serving hosting files from: public
 ✔  hosting: Local server: http://localhost:5004
 
 ✔  functions: ssrapp: http://localhost:5005/vue-firebase-dc79a/us-central1/ssrapp
-
-# Launch a browser and open http://localhost:5004
 ```
+Launch a browser and open http://localhost:5004
