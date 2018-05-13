@@ -28,6 +28,11 @@ module.exports = {
     publicPath: '/',
     vendor: ['isomorphic-fetch'],
     extractCSS: true,
+    postcss: {
+      plugins: {
+        'postcss-custom-properties': false
+      }
+    },
     babel: {
       presets: [
         'env',
