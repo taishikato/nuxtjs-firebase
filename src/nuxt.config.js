@@ -30,7 +30,7 @@ module.exports = {
     extractCSS: true,
     babel: {
       presets: [
-        'es2015',
+        'env',
         'stage-0'
       ],
       plugins: [
@@ -40,6 +40,7 @@ module.exports = {
         }]
       ]
     },
+    /*
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
@@ -50,5 +51,6 @@ module.exports = {
         })
       }
     }
+    */
   }
 }
